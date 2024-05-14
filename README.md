@@ -11,24 +11,25 @@ EF contexts and migration folders for the three ways. You can check the migratio
 understand how tables are structured for the three ways.
 
 ```mermaid
-class Animal
-{
-    Id
-    Name
-}
-
-class Cat
-{
-    Sound
-}
-
-class Dog
-{
-    Breed
-}
-
-Animal <|-- Cat
-Animal <|-- Dog
+classDiagram
+    class Animal
+    {
+        Id
+        Name
+    }
+    
+    class Cat
+    {
+        Sound
+    }
+    
+    class Dog
+    {
+        Breed
+    }
+    
+    Animal <|-- Cat
+    Animal <|-- Dog
 ```
 
 You can find more details in the [EF documentation](https://learn.microsoft.com/en-us/ef/core/modeling/inheritance).

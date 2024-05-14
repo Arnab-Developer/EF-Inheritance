@@ -12,19 +12,16 @@ understand how tables are structured for the three ways.
 
 ```mermaid
 classDiagram
-    class Animal
-    {
+    class Animal {
         Id
         Name
     }
     
-    class Cat
-    {
+    class Cat {
         Sound
     }
     
-    class Dog
-    {
+    class Dog {
         Breed
     }
     

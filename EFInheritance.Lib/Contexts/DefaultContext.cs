@@ -14,3 +14,4 @@ public class DefaultContext(DbContextOptions<DefaultContext> options) : DbContex
 
 // Run this to create migration
 // Add-Migration -Name "InitialCreate" -Context "EFInheritance.Lib.Contexts.DefaultContext" -OutputDir "Migrations\Default"
+// Update-Database -Context "EFInheritance.Lib.Contexts.DefaultContext"

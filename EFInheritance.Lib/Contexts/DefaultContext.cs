@@ -10,4 +10,4 @@ public class DefaultContext(DbContextOptions<DefaultContext> options) : DbContex
     public DbSet<Cat> Cats { get; set; }
 
     public DbSet<Dog> Dogs { get; set; }
-}
+}//Add-Migration -Name "InitialCreate" -Context "EFInheritance.Lib.Contexts.DefaultContext"

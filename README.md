@@ -10,23 +10,6 @@ I have used a simple model structure for this demo `Animal`, `Cat` and `Dog`. Th
 EF contexts and migration folders for the three ways. You can check the migrations to
 understand how tables are structured for the three ways.
 
-```mermaid
-classDiagram
-    class Animal {
-        Id
-        Name
-    }
-    
-    class Cat {
-        Sound
-    }
-    
-    class Dog {
-        Breed
-    }
-    
-    Animal <|-- Cat
-    Animal <|-- Dog
-```
+![Class diagram](assets/class-diagram.png)
 
 You can find more details in the [EF documentation](https://learn.microsoft.com/en-us/ef/core/modeling/inheritance).

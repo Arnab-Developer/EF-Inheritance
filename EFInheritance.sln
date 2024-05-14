@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFInheritance.Api", "EFInheritance.Api\EFInheritance.Api.csproj", "{7467FE17-BD2D-46A9-906E-0624FE9349BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFInheritance.Lib", "EFInheritance.Lib\EFInheritance.Lib.csproj", "{AFE54D29-E797-4A68-BCB3-757BAE1CBAF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{57125471-461C-4A26-85CE-E44DAC32DF76}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE.txt = LICENSE.txt
+		nuget.config = nuget.config
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7467FE17-BD2D-46A9-906E-0624FE9349BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7467FE17-BD2D-46A9-906E-0624FE9349BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7467FE17-BD2D-46A9-906E-0624FE9349BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7467FE17-BD2D-46A9-906E-0624FE9349BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFE54D29-E797-4A68-BCB3-757BAE1CBAF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFE54D29-E797-4A68-BCB3-757BAE1CBAF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFE54D29-E797-4A68-BCB3-757BAE1CBAF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFE54D29-E797-4A68-BCB3-757BAE1CBAF0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {535019C0-8054-44FA-81C4-A6D423917B17}
+	EndGlobalSection
+EndGlobal

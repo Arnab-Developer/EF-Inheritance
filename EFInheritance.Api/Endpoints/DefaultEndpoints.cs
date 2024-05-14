@@ -21,13 +21,13 @@ public static class DefaultEndpoints
         return animals;
     }
 
-    private static async Task<IEnumerable<Animal>> GetCatsAsync(DefaultContext context)
+    private static async Task<IEnumerable<Cat>> GetCatsAsync(DefaultContext context)
     {
         var cats = await context.Cats.OrderBy(a => a.Name).ToListAsync();
         return cats;
     }
 
-    private static async Task<IEnumerable<Animal>> GetDogsAsync(DefaultContext context)
+    private static async Task<IEnumerable<Dog>> GetDogsAsync(DefaultContext context)
     {
         var dogs = await context.Dogs.OrderBy(a => a.Name).ToListAsync();
         return dogs;

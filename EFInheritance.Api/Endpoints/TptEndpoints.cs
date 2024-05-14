@@ -21,13 +21,13 @@ public static class TptEndpoints
         return animals;
     }
 
-    private static async Task<IEnumerable<Animal>> GetCatsAsync(TptContext context)
+    private static async Task<IEnumerable<Cat>> GetCatsAsync(TptContext context)
     {
         var cats = await context.Cats.OrderBy(a => a.Name).ToListAsync();
         return cats;
     }
 
-    private static async Task<IEnumerable<Animal>> GetDogsAsync(TptContext context)
+    private static async Task<IEnumerable<Dog>> GetDogsAsync(TptContext context)
     {
         var dogs = await context.Dogs.OrderBy(a => a.Name).ToListAsync();
         return dogs;

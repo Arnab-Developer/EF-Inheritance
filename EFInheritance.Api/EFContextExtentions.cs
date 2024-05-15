@@ -11,9 +11,5 @@ internal static class EFContextExtentions
         serviceCollection.AddSqlServer<DefaultContext>(defaultConstr);
         serviceCollection.AddSqlServer<TptContext>(tptConstr);
         serviceCollection.AddSqlServer<TpcContext>(tpcConstr);
-
-        //serviceCollection.AddSqlServer<DefaultContext>(defaultConstr, x => x.MigrationsAssembly("EFInheritance.Lib"));
-        //serviceCollection.AddSqlServer<TptContext>(tptConstr, x => x.MigrationsAssembly("EFInheritance.Lib"));
-        //serviceCollection.AddSqlServer<TpcContext>(tpcConstr, x => x.MigrationsAssembly("EFInheritance.Lib"));
     }
 }

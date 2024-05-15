@@ -1,7 +1,4 @@
-﻿using EFInheritance.Lib.Models;
-using Microsoft.EntityFrameworkCore;
-
-namespace EFInheritance.Lib.Contexts;
+﻿namespace EFInheritance.Lib.Contexts;
 
 public class TptContext(DbContextOptions<TptContext> options) : DbContext(options)
 {

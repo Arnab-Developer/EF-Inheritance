@@ -1,7 +1,4 @@
-﻿using EFInheritance.Lib.Models;
-using Microsoft.EntityFrameworkCore;
-
-namespace EFInheritance.Lib.Contexts;
+﻿namespace EFInheritance.Lib.Contexts;
 
 public class DefaultContext(DbContextOptions<DefaultContext> options) : DbContext(options)
 {

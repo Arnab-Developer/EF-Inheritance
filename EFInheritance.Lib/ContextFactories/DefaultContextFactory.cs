@@ -1,8 +1,4 @@
-﻿using EFInheritance.Lib.Contexts;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Design;
-
-namespace EFInheritance.Lib.ContextFactories;
+﻿namespace EFInheritance.Lib.ContextFactories;
 
 public class DefaultContextFactory : IDesignTimeDbContextFactory<DefaultContext>
 {
